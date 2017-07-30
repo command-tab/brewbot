@@ -2,6 +2,12 @@
 
 A coffee brewing Slack notification system using a non-invasive current sensor and Raspberry Pi. The setup watches energy consumption and waits for a rise in current draw above 7A, followed by several minutes of sustained usage. Once the time threshold has passed, it does an HTTP POST to a Slack webhook, sleeps for about 15 minutes, then starts monitoring again.
 
+![ADC board and Raspberry Pi](https://raw.githubusercontent.com/commandtab/brewbot/master/images/full_kit.jpg)
+
+![Boards mounted inside enclosure](https://raw.githubusercontent.com/commandtab/brewbot/master/images/box.jpg)
+
+![ADC board front and back](https://raw.githubusercontent.com/commandtab/brewbot/master/images/adc_board_front_and_back.jpg)
+
 ## Parts List
 
 * [MCP3008 8-Channel 10-Bit Analog to Digital Converter](http://www.adafruit.com/products/856)

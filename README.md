@@ -35,4 +35,4 @@ A coffee brewing Slack notification system using a non-invasive current sensor a
 
 ## Connections
 
-While I don't have a schematic handy, the gist of the connections is running the CT sensor to an analog input on the MCP3008 chip, then wiring the digital output to the Raspberry Pi. Adafruit has a [guide on connecting the MCP3008 to a Raspberry Pi](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008) that was useful.
+While I don't have a schematic handy, the gist of the connections is running the CT sensor to an analog input on the MCP3008 chip (See: [How to build an Arduino energy monitor](https://openenergymonitor.org/forum-archive/node/58.html)), then wiring the digital SPI output of the MCP3008 to Raspberry Pi GPIO pins. Adafruit has a [guide on connecting the MCP3008 to a Raspberry Pi](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008) that was useful.
